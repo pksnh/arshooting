@@ -7,7 +7,7 @@ public class Spawn : MonoBehaviour
     public Transform[] pos;
     public GameObject[] prefab;
 
-    AudioSource audio;
+    private AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +34,7 @@ public class Spawn : MonoBehaviour
 
                 Rigidbody rb = obj.GetComponent<Rigidbody>();
 
-                rb.AddForce(Vector3.back * Random.Range(4.0f, 10.0f), ForceMode.VelocityChange);
+                rb.AddForce(Vector3.back * Random.Range(2.0f, 5.0f), ForceMode.VelocityChange);
             }
             audio.Play();
         }

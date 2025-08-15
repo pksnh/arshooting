@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638549602300495551
+      ticks: 638549602320000000
     m_Hash: 1043219174
   m_LockFileStatus:
     m_FilePath: D:/Work/Unity/arshooting/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638549602300969157
+      ticks: 638549602320000000
     m_Hash: 3890064036
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -116,10 +116,26 @@ m_ResolvedPackages:
     - 2.2.0
     - 2.3.1
     - 2.4.3
+    - 2.4.4
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.7.1
+    - 2.8.1
+    - 2.8.2
+    - 2.9.1
     compatible:
     - 2.2.0
     - 2.3.1
     - 2.4.3
+    - 2.4.4
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.7.1
+    - 2.8.1
+    - 2.8.2
+    - 2.9.1
     recommended: 2.2.0
     deprecated: []
   dependencies: []
@@ -390,6 +406,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
+    - 3.2.0-pre.11
+    - 3.2.0-pre.12
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -407,6 +425,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
+    - 3.2.0-pre.11
+    - 3.2.0-pre.12
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.9
@@ -552,6 +572,7 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -560,8 +581,11 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
+    - 1.8.9
     compatible:
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -570,21 +594,23 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
-    recommended: 1.7.6
+    - 1.8.8
+    - 1.8.9
+    recommended: 1.7.7
     deprecated: []
   dependencies:
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.director
-    version: 1.0.0
   - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -652,7 +678,10 @@ m_ResolvedPackages:
     compatible:
     - 1.0.0
     recommended: 1.0.0
-    deprecated: []
+    deprecated:
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -746,11 +775,19 @@ m_ResolvedPackages:
     - 1.9.1
     - 1.9.2
     - 1.9.4
+    - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
     compatible:
     - 1.9.1
     - 1.9.2
     - 1.9.4
-    recommended: 1.9.4
+    - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
+    recommended: 1.9.8
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -938,6 +975,8 @@ m_ResolvedPackages:
     - 5.1.3
     - 5.1.4
     - 5.1.5
+    - 5.1.6
+    - 5.2.0
     - 6.0.0-pre.3
     - 6.0.0-pre.4
     - 6.0.0-pre.5
@@ -946,44 +985,51 @@ m_ResolvedPackages:
     - 6.0.0-pre.8
     - 6.0.1
     - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.1.0-pre.1
+    - 6.1.0-pre.2
+    - 6.1.0-pre.3
+    - 6.1.0-pre.4
+    - 6.1.0-pre.5
+    - 6.1.0
+    - 6.1.1
+    - 6.2.0-pre.1
+    - 6.2.0-pre.2
+    - 6.2.0-pre.3
+    - 6.2.0-pre.4
+    - 6.2.0
+    - 6.3.0-pre.1
     compatible:
     - 5.1.2
     - 5.1.3
     - 5.1.4
     - 5.1.5
-    recommended: 5.1.5
+    - 5.1.6
+    - 5.2.0
+    recommended: 5.1.6
     deprecated: []
   dependencies:
-  - name: com.unity.xr.arfoundation
-    version: 5.1.5
   - name: com.unity.xr.core-utils
     version: 2.1.0
   - name: com.unity.xr.management
     version: 4.0.1
+  - name: com.unity.xr.arfoundation
+    version: 5.1.5
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.xr.arfoundation
-    version: 5.1.5
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.inputsystem
-    version: 1.7.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.xr.core-utils
     version: 2.3.0
   - name: com.unity.modules.xr
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -993,10 +1039,22 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
+  - name: com.unity.xr.arfoundation
+    version: 5.1.5
   - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.mathematics
     version: 1.2.6
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   - name: com.unity.modules.unityanalytics
@@ -1178,6 +1236,8 @@ m_ResolvedPackages:
     - 5.1.3
     - 5.1.4
     - 5.1.5
+    - 5.1.6
+    - 5.2.0
     - 6.0.0-pre.3
     - 6.0.0-pre.4
     - 6.0.0-pre.5
@@ -1186,47 +1246,68 @@ m_ResolvedPackages:
     - 6.0.0-pre.8
     - 6.0.1
     - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.1.0-pre.1
+    - 6.1.0-pre.2
+    - 6.1.0-pre.3
+    - 6.1.0-pre.4
+    - 6.1.0-pre.5
+    - 6.1.0
+    - 6.1.1
+    - 6.2.0-pre.1
+    - 6.2.0-pre.2
+    - 6.2.0-pre.3
+    - 6.2.0-pre.4
+    - 6.2.0
+    - 6.3.0-pre.1
     compatible:
     - 5.1.2
     - 5.1.3
     - 5.1.4
     - 5.1.5
-    recommended: 5.1.5
+    - 5.1.6
+    - 5.2.0
+    recommended: 5.1.6
     deprecated: []
   dependencies:
-  - name: com.unity.editorcoroutines
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.inputsystem
     version: 1.3.0
+  - name: com.unity.mathematics
+    version: 1.2.5
   - name: com.unity.xr.core-utils
     version: 2.2.1
   - name: com.unity.xr.management
     version: 4.0.1
-  - name: com.unity.ugui
+  - name: com.unity.editorcoroutines
     version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.5
   - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.unityanalytics
     version: 1.0.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.inputsystem
-    version: 1.7.0
-  - name: com.unity.modules.uielements
+  - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
   - name: com.unity.xr.core-utils
     version: 2.3.0
   - name: com.unity.modules.xr
@@ -1241,10 +1322,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
-  - name: com.unity.ugui
+  - name: com.unity.editorcoroutines
     version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.6
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   - name: com.unity.modules.unityanalytics
@@ -3190,71 +3269,6 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.editorcoroutines@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 1
-  resolvedPath: D:\Work\Unity\arshooting\Library\PackageCache\com.unity.editorcoroutines@1.0.0
-  assetPath: Packages/com.unity.editorcoroutines
-  name: com.unity.editorcoroutines
-  displayName: Editor Coroutines
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'The editor coroutines package allows developers to start constructs
-    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
-    objects. '
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.0.1-preview.3
-    - 0.0.1-preview.4
-    - 0.0.1-preview.5
-    - 0.0.2-preview.1
-    - 0.1.0-preview.1
-    - 0.1.0-preview.2
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - coroutine
-  - coroutines
-  - editor
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637232611380000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
-    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.inputsystem@1.7.0
   testable: 0
   isDirectDependency: 0
@@ -3322,6 +3336,17 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.9.0
+    - 1.10.0
+    - 1.11.0
+    - 1.11.1
+    - 1.11.2
+    - 1.12.0
+    - 1.13.0
+    - 1.13.1
+    - 1.14.0
+    - 1.14.1
+    - 1.14.2
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
@@ -3329,6 +3354,17 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.9.0
+    - 1.10.0
+    - 1.11.0
+    - 1.11.1
+    - 1.11.2
+    - 1.12.0
+    - 1.13.0
+    - 1.13.1
+    - 1.14.0
+    - 1.14.1
+    - 1.14.2
     recommended: 1.7.0
     deprecated: []
   dependencies:
@@ -3372,6 +3408,82 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.7.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.mathematics@1.2.6
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.6
+  source: 1
+  resolvedPath: D:\Work\Unity\arshooting\Library\PackageCache\com.unity.mathematics@1.2.6
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    compatible:
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    recommended: 1.2.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637841876140000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: f110c8c230d253654afed153569030a587cc7557
+    path: 
+  unityLifecycle:
+    version: 1.2.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3426,11 +3538,19 @@ m_ResolvedPackages:
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
+    - 2.4.0
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
     compatible:
     - 2.3.0
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
+    - 2.4.0
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
     recommended: 2.3.0
     deprecated: []
   dependencies:
@@ -3554,30 +3674,34 @@ m_ResolvedPackages:
     - 4.3.3
     - 4.4.0
     - 4.4.1
+    - 4.5.0
+    - 4.5.1
     compatible:
     - 4.4.0
     - 4.4.1
+    - 4.5.0
+    - 4.5.1
     recommended: 4.4.1
     deprecated: []
   dependencies:
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
   - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.7
   resolvedDependencies:
-  - name: com.unity.modules.subsystems
+  - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
@@ -3615,56 +3739,45 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.mathematics@1.2.6
+- packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
-  version: 1.2.6
+  version: 1.0.0
   source: 1
-  resolvedPath: D:\Work\Unity\arshooting\Library\PackageCache\com.unity.mathematics@1.2.6
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
+  resolvedPath: D:\Work\Unity\arshooting\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  assetPath: Packages/com.unity.editorcoroutines
+  name: com.unity.editorcoroutines
+  displayName: Editor Coroutines
   author:
     name: 
     email: 
     url: 
   category: 
   type: asset
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
+  description: 'The editor coroutines package allows developers to start constructs
+    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
+    objects. '
   status: 0
   errors: []
   versions:
     all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
+    - 0.0.1-preview.3
+    - 0.0.1-preview.4
+    - 0.0.1-preview.5
+    - 0.0.2-preview.1
+    - 0.1.0-preview.1
+    - 0.1.0-preview.2
+    - 1.0.0
     compatible:
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    recommended: 1.2.6
+    - 1.0.0
+    recommended: 1.0.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
-  - unity
+  - coroutine
+  - coroutines
+  - editor
   registry:
     id: main
     name: 
@@ -3675,16 +3788,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637841876140000000
+  datePublishedTicks: 637232611380000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: f110c8c230d253654afed153569030a587cc7557
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
     path: 
   unityLifecycle:
-    version: 1.2.6
+    version: 1.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3737,9 +3850,11 @@ m_ResolvedPackages:
     - 2.0.20
     - 2.0.21
     - 2.0.22
+    - 2.0.23
     compatible:
     - 2.0.22
-    recommended: 2.0.22
+    - 2.0.23
+    recommended: 2.0.23
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -3845,11 +3960,17 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
+    - 3.0.34
+    - 3.0.35
+    - 3.0.36
     compatible:
     - 3.0.27
     - 3.0.28
     - 3.0.31
-    recommended: 3.0.31
+    - 3.0.34
+    - 3.0.35
+    - 3.0.36
+    recommended: 3.0.36
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -3990,9 +4111,11 @@ m_ResolvedPackages:
     - 1.1.0
     - 1.1.1
     - 1.2.2
+    - 1.2.3
     compatible:
     - 1.2.2
-    recommended: 1.2.2
+    - 1.2.3
+    recommended: 1.2.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4091,6 +4214,8 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -4111,6 +4236,8 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -4214,9 +4341,11 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.2.4
     - 1.2.5
+    - 1.2.6
     compatible:
     - 1.2.5
-    recommended: 1.2.5
+    - 1.2.6
+    recommended: 1.2.6
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -4315,9 +4444,13 @@ m_ResolvedPackages:
     - 2.1.8
     - 2.1.9
     - 2.1.10
+    - 2.1.11
+    - 2.1.12
     compatible:
     - 2.1.10
-    recommended: 2.1.10
+    - 2.1.11
+    - 2.1.12
+    recommended: 2.1.12
     deprecated: []
   dependencies:
   - name: com.unity.modules.vr
@@ -4396,8 +4529,10 @@ m_ResolvedPackages:
     - 1.0.3
     - 2.0.0
     - 2.0.1
+    - 2.1.0
     compatible:
     - 2.0.1
+    - 2.1.0
     recommended: 2.0.1
     deprecated: []
   dependencies: []

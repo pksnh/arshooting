@@ -8,7 +8,7 @@ public class Shoot : MonoBehaviour
     public GameObject camera;
     public GameObject prefab;
 
-    AudioSource audio;
+    private AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,8 @@ public class Shoot : MonoBehaviour
             {
                 Destroy(hit.transform.gameObject);
                 Instantiate(prefab, hit.point, Quaternion.LookRotation(hit.normal));
-
+                GameManager.instance.AddScore(5);
+                GameManager.instance.Best();
                 audio.Play();
             }
         }
